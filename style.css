@@ -248,4 +248,61 @@ UPLOAD CARD
     color:#888;
 
    }
+/*==========================
+FILE INFO
+==========================*/
+
+.file-info{
+
+    max-width:900px;
+
+    margin:25px auto;
+
+    padding:0 20px;
+
+}
+
+.info-card{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:20px;
+
+}
+
+.info-item{
+
+    background:#fff;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+}
+
+.label{
+
+    display:block;
+
+    color:#888;
+
+    margin-bottom:10px;
+
+    font-size:15px;
+
+}
+
+.info-item span:last-child{
+
+    font-weight:700;
+
+    color:#2563eb;
+
+}
 
