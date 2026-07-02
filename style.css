@@ -1,0 +1,107 @@
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.hero-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.hero h1{
+
+    font-size:52px;
+
+    font-weight:800;
+
+    margin-bottom:20px;
+
+}
+
+.pdf-text{
+
+    color:#ff3b30;
+
+}
+
+.word-text{
+
+    color:#2563eb;
+
+}
+
+.arrow{
+
+    color:#555;
+
+    margin:0 10px;
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.converter-switch{
+
+    margin-top:40px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+.switch-btn{
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#f3f4f6;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.switch-btn.active{
+
+    background:#2563eb;
+
+    color:#fff;
+
+    box-shadow:0 12px 25px rgba(37,99,235,.25);
+
+}
+
+.switch-btn:hover{
+
+    transform:translateY(-3px);
+
+}
